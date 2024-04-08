@@ -47,7 +47,7 @@ number4 = 10_000_000
 # Acum afișează tipul variabilei `number4` folosind funcția `print`
 
 # CODUL TĂU VINE MAI JOS:
-print(type(number4), '\n')
+print('\n', type(number4), '\n')
 # CODUL TĂU VINE MAI SUS:
 
 # Creați o variabilă `numar` și atribuiții valoarea 5.0
