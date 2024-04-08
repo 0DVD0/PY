@@ -53,7 +53,7 @@ print(name + name2, '\n')
 # Creează o variabilă `text` și setează-i un text la alegere, cu restricția ca acesta să conțină mai multe rânduri
 
 # CODUL TĂU VINE MAI JOS:
-text = 'Big chungus\nSmall chungus\nAvarage sized chungus\n'
+text = 'Big chungus\nSmall chungus\nAvarage sized chungus'
 # CODUL TĂU VINE MAI SUS:
 
 # Verifică dacă variabila `text` conține cuvântul `python`
@@ -120,7 +120,7 @@ for index in range(len(f_string)):
 # Utilizând format string-uri, creează un string care să conțină variabilele `name` și `name2`
 
 # CODUL TĂU VINE MAI JOS:
-form_string = "Yes my name is {}, you can call me {}\n"
+form_string = "Yes my name is {}, you can call me {}"
 print(form_string.format(name, name2))
 # CODUL TĂU VINE MAI SUS:
 
