@@ -9,15 +9,12 @@ person = {}
 # Acum adăugați o pereche de cheie-valoare în dicționar, cheia fiind "name" și valoarea fiind "John"
 
 # CODUL TĂU VINE MAI JOS:
-person = {
-    'name': 'John'
-}
+person = {'name': 'John', 'age': 30}
 # CODUL TĂU VINE MAI SUS:
 
 # Acum adăugați o pereche de cheie-valoare în dicționar, cheia fiind "age" și valoarea fiind 30
 
 # CODUL TĂU VINE MAI JOS:
-person['age'] = 30
 # CODUL TĂU VINE MAI SUS:
 
 # Acum afișați dicționarul
@@ -42,7 +39,7 @@ print(person)
 # metoda setdefault()
 
 # CODUL TĂU VINE MAI JOS:
-person.setdefault('city','New York')
+person.setdefault('city', 'New York')
 # CODUL TĂU VINE MAI SUS:
 
 # Afișați toate cheile din dicționar

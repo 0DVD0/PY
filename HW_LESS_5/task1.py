@@ -3,13 +3,13 @@
 # Creează o listă goală numită `numbers`
 
 # CODUL TĂU VINE MAI JOS:
-numbers =[]
+numbers = []
 # CODUL TĂU VINE MAI SUS:
 
 # Acum adaugă numerele de la 1 la 5 în lista `numbers`
 
 # CODUL TĂU VINE MAI JOS:
-numbers = [i for i in range(1, 6)]
+numbers = [i for i in range(5)]
 # CODUL TĂU VINE MAI SUS:
 
 # Acum afișează lista `numbers`
@@ -87,7 +87,7 @@ print(numbers[-3:])
 # Acum adaugă numărul 3 la poziția 2 în lista `numbers`
 
 # CODUL TĂU VINE MAI JOS:
-numbers.insert(2,3)
+numbers.insert(2, 3)
 # CODUL TĂU VINE MAI SUS:
 
 # Acum afișează lista `numbers`

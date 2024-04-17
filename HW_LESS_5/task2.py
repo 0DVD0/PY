@@ -79,7 +79,7 @@ print(numbers)
 # Ștergeți tuple `numbers`
 
 # CODUL TĂU VINE MAI JOS:
-del(numbers)
+del numbers
 # CODUL TĂU VINE MAI SUS:
 
 # Asta a fost tot, ai terminat prima ta sarcină legată de liste

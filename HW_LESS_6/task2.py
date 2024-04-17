@@ -122,7 +122,7 @@ numbers_set.clear()
 # Afișați setul `numbers_set` pentru a verifica dacă a fost șters
 
 # CODUL TĂU VINE MAI JOS:
-print({numbers_set})
+print(numbers_set)
 # CODUL TĂU VINE MAI SUS:
 
 # Asta a fost tot pentru a doua ta sarcină legată de seturi
