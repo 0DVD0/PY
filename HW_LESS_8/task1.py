@@ -3,43 +3,74 @@
 # Creați o listă de numere de la 1 la 10 folosind un for loop și funcția range().
 
 # CODUL TĂU VINE MAI JOS:
-
+number_list = []
+for i in range(10):
+    number_list.append(i)
 # CODUL TĂU VINE MAI SUS:
 
 # Folosind un for loop, parcurgeți lista creată și afișați numai numerele pare.
 
 # CODUL TĂU VINE MAI JOS:
+for i in range(len(number_list)):
+    if number_list[i] % 2 == 0:
+        print(number_list[i])
 
 # CODUL TĂU VINE MAI SUS:
 
-# Folosind un while loop, creați o variabilă 'i' inițializată cu 1 și incrementați-o până când ajunge la 5. Afișați valoarea 'i' la fiecare pas.
+# Folosind un while loop, creați o variabilă 'i' inițializată cu 1 și incrementați-o până când ajunge la 5. Afișați
+# valoarea 'i' la fiecare pas.
 
 # CODUL TĂU VINE MAI JOS:
+print("\n")
+i = 1
+while i < 5:
+    print(i)
+    i += 1
+
 
 # CODUL TĂU VINE MAI SUS:
 
-# Creați un dicționar person cu cheile 'name', 'age' și 'city' și iterați prin dicționar afișând perechile de cheie-valoare.
+# Creați un dicționar person cu cheile 'name', 'age' și 'city' și iterați prin dicționar afișând perechile de
+# cheie-valoare.
 
 # CODUL TĂU VINE MAI JOS:
-
+print("\n")
+person = {
+    'name': "David",
+    'age': 19,
+    'city': "Chisinau"
+}
+for i in person:
+    print(person[i])
 # CODUL TĂU VINE MAI SUS:
 
 # Utilizați un for loop pentru a itera printr-o listă de liste (matrice) și afișați fiecare element.
 
 # CODUL TĂU VINE MAI JOS:
-
+print("\n")
+matirx = [[1, 2, 3],
+          [4, 5, 6],
+          [7, 8, 9]]
+for row in matirx:
+    for col in row:
+        print(col)
 # CODUL TĂU VINE MAI SUS:
 
 # Creați o secvență de numere folosind funcția range() și apoi iterați prin această secvență folosind un for loop pentru a afișa numerele.
 
 # CODUL TĂU VINE MAI JOS:
-
+print("\n")
+numere = range(1, 10)
+for i in numere:
+    print(i)
 # CODUL TĂU VINE MAI SUS:
 
 # Folosiți funcția enumerate() pentru a itera printr-o listă și a afișa indexul fiecărui element alături de valoarea sa.
 
 # CODUL TĂU VINE MAI JOS:
-
+for i in len(number_list):
+enumerate(number_list)
+print()
 # CODUL TĂU VINE MAI SUS:
 
 # Folosiți funcția zip() pentru a itera simultan prin două liste și a afișa elementele corespunzătoare.
